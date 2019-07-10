@@ -7,13 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B4C7160814708959C81D652 /* Pods_BarbroTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78662247978F169C7D5406FD /* Pods_BarbroTests.framework */; };
+		ACEA46DFE29EBC3AE2BF284F /* Pods_BarbroUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B69B2714385B59CB943758D /* Pods_BarbroUITests.framework */; };
+		BF023A83A7B109835C1F2D2C /* Pods_Barbro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3BFAAAFA641704D3828A5D /* Pods_Barbro.framework */; };
+		E12C6CBC21CF9D12008C310B /* ShopHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12C6CBB21CF9D12008C310B /* ShopHolder.swift */; };
+		E12C6CBE21CF9D2B008C310B /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12C6CBD21CF9D2B008C310B /* ImageService.swift */; };
+		E12C6CC821CFB7F0008C310B /* BEMCheckBoxGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = E12C6CC021CFB7EE008C310B /* BEMCheckBoxGroup.m */; };
+		E12C6CC921CFB7F0008C310B /* BEMAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E12C6CC421CFB7EF008C310B /* BEMAnimationManager.m */; };
+		E12C6CCA21CFB7F0008C310B /* BEMPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E12C6CC521CFB7F0008C310B /* BEMPathManager.m */; };
+		E12C6CCB21CFB7F0008C310B /* BEMCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = E12C6CC721CFB7F0008C310B /* BEMCheckBox.m */; };
+		E12C6CCD21CFB9E3008C310B /* InsideShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12C6CCC21CFB9E3008C310B /* InsideShopViewController.swift */; };
+		E12C6CCF21CFDF36008C310B /* Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = E12C6CCE21CFDF35008C310B /* Arrow.png */; };
+		E12C6CD121CFE070008C310B /* ServiceTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12C6CD021CFE070008C310B /* ServiceTypes.swift */; };
+		E12C6CD321CFEED3008C310B /* DateCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12C6CD221CFEED3008C310B /* DateCollection.swift */; };
+		E12C6CD521CFF798008C310B /* TimeSlotCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12C6CD421CFF798008C310B /* TimeSlotCollection.swift */; };
+		E1803F7421CA5EF100DCB46C /* TipsCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1803F7321CA5EF100DCB46C /* TipsCollection.swift */; };
 		E1EA6A2A21CA33A500570A30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EA6A2921CA33A500570A30 /* AppDelegate.swift */; };
 		E1EA6A2C21CA33A500570A30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EA6A2B21CA33A500570A30 /* ViewController.swift */; };
 		E1EA6A2F21CA33A500570A30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1EA6A2D21CA33A500570A30 /* Main.storyboard */; };
-		E1EA6A3121CA33AF00570A30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1EA6A3021CA33AF00570A30 /* Assets.xcassets */; };
 		E1EA6A3421CA33AF00570A30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1EA6A3221CA33AF00570A30 /* LaunchScreen.storyboard */; };
 		E1EA6A3F21CA33AF00570A30 /* BarbroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EA6A3E21CA33AF00570A30 /* BarbroTests.swift */; };
 		E1EA6A4A21CA33AF00570A30 /* BarbroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EA6A4921CA33AF00570A30 /* BarbroUITests.swift */; };
+		E1EA6A5821CA348A00570A30 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E1EA6A5721CA348A00570A30 /* GoogleService-Info.plist */; };
+		E1EA6A6221CA4E1000570A30 /* np_search_875355_000000@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1EA6A6121CA4E1000570A30 /* np_search_875355_000000@3x.png */; };
+		E1EA6A6421CA4E9B00570A30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1EA6A6321CA4E9A00570A30 /* Assets.xcassets */; };
+		E1EA6A6621CA4EBE00570A30 /* Group 18@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1EA6A6521CA4EBE00570A30 /* Group 18@3x.png */; };
+		E1EA6A6821CA520F00570A30 /* NearMeCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EA6A6721CA520F00570A30 /* NearMeCollection.swift */; };
+		E1EA6A6A21CA55E400570A30 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EA6A6921CA55E400570A30 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +54,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B69B2714385B59CB943758D /* Pods_BarbroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BarbroUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A3BFAAAFA641704D3828A5D /* Pods_Barbro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Barbro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78662247978F169C7D5406FD /* Pods_BarbroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BarbroTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DD229EEF0AA553D47F9BA61 /* Pods-BarbroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarbroTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BarbroTests/Pods-BarbroTests.release.xcconfig"; sourceTree = "<group>"; };
+		9FCE0CF9F0C1D44942411E9B /* Pods-BarbroUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarbroUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BarbroUITests/Pods-BarbroUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B22445C692D0E0FF469FD83C /* Pods-BarbroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarbroUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BarbroUITests/Pods-BarbroUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C004FF8FBD7C7247CDFE305C /* Pods-Barbro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Barbro.release.xcconfig"; path = "Pods/Target Support Files/Pods-Barbro/Pods-Barbro.release.xcconfig"; sourceTree = "<group>"; };
+		DAF36E1015D7912435E1AE38 /* Pods-Barbro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Barbro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Barbro/Pods-Barbro.debug.xcconfig"; sourceTree = "<group>"; };
+		E12C6CBB21CF9D12008C310B /* ShopHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopHolder.swift; sourceTree = "<group>"; };
+		E12C6CBD21CF9D2B008C310B /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		E12C6CBF21CFB7ED008C310B /* Barbro-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Barbro-Bridging-Header.h"; sourceTree = "<group>"; };
+		E12C6CC021CFB7EE008C310B /* BEMCheckBoxGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BEMCheckBoxGroup.m; path = ../../../../Downloads/demo614checkbox/demo614checkbox/BEMCheckBoxGroup.m; sourceTree = "<group>"; };
+		E12C6CC121CFB7EE008C310B /* BEMCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BEMCheckBox.h; path = ../../../../Downloads/demo614checkbox/demo614checkbox/BEMCheckBox.h; sourceTree = "<group>"; };
+		E12C6CC221CFB7EF008C310B /* BEMCheckBoxGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BEMCheckBoxGroup.h; path = ../../../../Downloads/demo614checkbox/demo614checkbox/BEMCheckBoxGroup.h; sourceTree = "<group>"; };
+		E12C6CC321CFB7EF008C310B /* BEMPathManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BEMPathManager.h; path = ../../../../Downloads/demo614checkbox/demo614checkbox/BEMPathManager.h; sourceTree = "<group>"; };
+		E12C6CC421CFB7EF008C310B /* BEMAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BEMAnimationManager.m; path = ../../../../Downloads/demo614checkbox/demo614checkbox/BEMAnimationManager.m; sourceTree = "<group>"; };
+		E12C6CC521CFB7F0008C310B /* BEMPathManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BEMPathManager.m; path = ../../../../Downloads/demo614checkbox/demo614checkbox/BEMPathManager.m; sourceTree = "<group>"; };
+		E12C6CC621CFB7F0008C310B /* BEMAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BEMAnimationManager.h; path = ../../../../Downloads/demo614checkbox/demo614checkbox/BEMAnimationManager.h; sourceTree = "<group>"; };
+		E12C6CC721CFB7F0008C310B /* BEMCheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BEMCheckBox.m; path = ../../../../Downloads/demo614checkbox/demo614checkbox/BEMCheckBox.m; sourceTree = "<group>"; };
+		E12C6CCC21CFB9E3008C310B /* InsideShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsideShopViewController.swift; sourceTree = "<group>"; };
+		E12C6CCE21CFDF35008C310B /* Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Arrow.png; path = "../../../Kaushal's Macbook BackUp/ios extracted image/Arrow.png"; sourceTree = "<group>"; };
+		E12C6CD021CFE070008C310B /* ServiceTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceTypes.swift; sourceTree = "<group>"; };
+		E12C6CD221CFEED3008C310B /* DateCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCollection.swift; sourceTree = "<group>"; };
+		E12C6CD421CFF798008C310B /* TimeSlotCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSlotCollection.swift; sourceTree = "<group>"; };
+		E1803F7321CA5EF100DCB46C /* TipsCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsCollection.swift; sourceTree = "<group>"; };
 		E1EA6A2621CA33A500570A30 /* Barbro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Barbro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1EA6A2921CA33A500570A30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1EA6A2B21CA33A500570A30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E1EA6A2E21CA33A500570A30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E1EA6A3021CA33AF00570A30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1EA6A3321CA33AF00570A30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1EA6A3521CA33AF00570A30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1EA6A3A21CA33AF00570A30 /* BarbroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarbroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +91,13 @@
 		E1EA6A4521CA33AF00570A30 /* BarbroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarbroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1EA6A4921CA33AF00570A30 /* BarbroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarbroUITests.swift; sourceTree = "<group>"; };
 		E1EA6A4B21CA33AF00570A30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1EA6A5721CA348A00570A30 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E1EA6A6121CA4E1000570A30 /* np_search_875355_000000@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "np_search_875355_000000@3x.png"; path = "../../../Kaushal's Macbook BackUp/ios extracted image/np_search_875355_000000@3x.png"; sourceTree = "<group>"; };
+		E1EA6A6321CA4E9A00570A30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1EA6A6521CA4EBE00570A30 /* Group 18@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Group 18@3x.png"; path = "../../../Kaushal's Macbook BackUp/ios extracted image/Group 18@3x.png"; sourceTree = "<group>"; };
+		E1EA6A6721CA520F00570A30 /* NearMeCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearMeCollection.swift; sourceTree = "<group>"; };
+		E1EA6A6921CA55E400570A30 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F083E744891355951E51FDE3 /* Pods-BarbroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarbroTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BarbroTests/Pods-BarbroTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF023A83A7B109835C1F2D2C /* Pods_Barbro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B4C7160814708959C81D652 /* Pods_BarbroTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +121,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACEA46DFE29EBC3AE2BF284F /* Pods_BarbroUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B322BC170669FD9E21DCE72D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A3BFAAAFA641704D3828A5D /* Pods_Barbro.framework */,
+				78662247978F169C7D5406FD /* Pods_BarbroTests.framework */,
+				0B69B2714385B59CB943758D /* Pods_BarbroUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE57CF552B651A8AA29DAAE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAF36E1015D7912435E1AE38 /* Pods-Barbro.debug.xcconfig */,
+				C004FF8FBD7C7247CDFE305C /* Pods-Barbro.release.xcconfig */,
+				F083E744891355951E51FDE3 /* Pods-BarbroTests.debug.xcconfig */,
+				9DD229EEF0AA553D47F9BA61 /* Pods-BarbroTests.release.xcconfig */,
+				B22445C692D0E0FF469FD83C /* Pods-BarbroUITests.debug.xcconfig */,
+				9FCE0CF9F0C1D44942411E9B /* Pods-BarbroUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E1EA6A1D21CA33A500570A30 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +158,8 @@
 				E1EA6A3D21CA33AF00570A30 /* BarbroTests */,
 				E1EA6A4821CA33AF00570A30 /* BarbroUITests */,
 				E1EA6A2721CA33A500570A30 /* Products */,
+				BE57CF552B651A8AA29DAAE4 /* Pods */,
+				B322BC170669FD9E21DCE72D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +176,34 @@
 		E1EA6A2821CA33A500570A30 /* Barbro */ = {
 			isa = PBXGroup;
 			children = (
+				E12C6CC621CFB7F0008C310B /* BEMAnimationManager.h */,
+				E12C6CC421CFB7EF008C310B /* BEMAnimationManager.m */,
+				E12C6CC121CFB7EE008C310B /* BEMCheckBox.h */,
+				E12C6CC721CFB7F0008C310B /* BEMCheckBox.m */,
+				E12C6CC221CFB7EF008C310B /* BEMCheckBoxGroup.h */,
+				E12C6CC021CFB7EE008C310B /* BEMCheckBoxGroup.m */,
+				E12C6CC321CFB7EF008C310B /* BEMPathManager.h */,
+				E12C6CC521CFB7F0008C310B /* BEMPathManager.m */,
 				E1EA6A2921CA33A500570A30 /* AppDelegate.swift */,
 				E1EA6A2B21CA33A500570A30 /* ViewController.swift */,
 				E1EA6A2D21CA33A500570A30 /* Main.storyboard */,
-				E1EA6A3021CA33AF00570A30 /* Assets.xcassets */,
+				E1EA6A6321CA4E9A00570A30 /* Assets.xcassets */,
 				E1EA6A3221CA33AF00570A30 /* LaunchScreen.storyboard */,
 				E1EA6A3521CA33AF00570A30 /* Info.plist */,
+				E1EA6A5721CA348A00570A30 /* GoogleService-Info.plist */,
+				E1EA6A6521CA4EBE00570A30 /* Group 18@3x.png */,
+				E1EA6A6121CA4E1000570A30 /* np_search_875355_000000@3x.png */,
+				E12C6CCE21CFDF35008C310B /* Arrow.png */,
+				E1EA6A6721CA520F00570A30 /* NearMeCollection.swift */,
+				E1EA6A6921CA55E400570A30 /* HomeViewController.swift */,
+				E1803F7321CA5EF100DCB46C /* TipsCollection.swift */,
+				E12C6CBB21CF9D12008C310B /* ShopHolder.swift */,
+				E12C6CBD21CF9D2B008C310B /* ImageService.swift */,
+				E12C6CBF21CFB7ED008C310B /* Barbro-Bridging-Header.h */,
+				E12C6CCC21CFB9E3008C310B /* InsideShopViewController.swift */,
+				E12C6CD021CFE070008C310B /* ServiceTypes.swift */,
+				E12C6CD221CFEED3008C310B /* DateCollection.swift */,
+				E12C6CD421CFF798008C310B /* TimeSlotCollection.swift */,
 			);
 			path = Barbro;
 			sourceTree = "<group>";
@@ -132,9 +233,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1EA6A4E21CA33AF00570A30 /* Build configuration list for PBXNativeTarget "Barbro" */;
 			buildPhases = (
+				EDA270DD256F39C3FCD18753 /* [CP] Check Pods Manifest.lock */,
 				E1EA6A2221CA33A500570A30 /* Sources */,
 				E1EA6A2321CA33A500570A30 /* Frameworks */,
 				E1EA6A2421CA33A500570A30 /* Resources */,
+				7F5210463AC9F8DFEB8E987B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +252,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1EA6A5121CA33AF00570A30 /* Build configuration list for PBXNativeTarget "BarbroTests" */;
 			buildPhases = (
+				4BD45208FA0C8DE679296FA0 /* [CP] Check Pods Manifest.lock */,
 				E1EA6A3621CA33AF00570A30 /* Sources */,
 				E1EA6A3721CA33AF00570A30 /* Frameworks */,
 				E1EA6A3821CA33AF00570A30 /* Resources */,
@@ -167,6 +271,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1EA6A5421CA33AF00570A30 /* Build configuration list for PBXNativeTarget "BarbroUITests" */;
 			buildPhases = (
+				B57AD9284EDA692AE4FC64B8 /* [CP] Check Pods Manifest.lock */,
 				E1EA6A4121CA33AF00570A30 /* Sources */,
 				E1EA6A4221CA33AF00570A30 /* Frameworks */,
 				E1EA6A4321CA33AF00570A30 /* Resources */,
@@ -193,6 +298,7 @@
 				TargetAttributes = {
 					E1EA6A2521CA33A500570A30 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					E1EA6A3921CA33AF00570A30 = {
 						CreatedOnToolsVersion = 10.1;
@@ -230,8 +336,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1EA6A3421CA33AF00570A30 /* LaunchScreen.storyboard in Resources */,
-				E1EA6A3121CA33AF00570A30 /* Assets.xcassets in Resources */,
+				E12C6CCF21CFDF36008C310B /* Arrow.png in Resources */,
+				E1EA6A5821CA348A00570A30 /* GoogleService-Info.plist in Resources */,
+				E1EA6A6221CA4E1000570A30 /* np_search_875355_000000@3x.png in Resources */,
+				E1EA6A6421CA4E9B00570A30 /* Assets.xcassets in Resources */,
 				E1EA6A2F21CA33A500570A30 /* Main.storyboard in Resources */,
+				E1EA6A6621CA4EBE00570A30 /* Group 18@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +361,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4BD45208FA0C8DE679296FA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BarbroTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F5210463AC9F8DFEB8E987B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Barbro/Pods-Barbro-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Barbro/Pods-Barbro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B57AD9284EDA692AE4FC64B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BarbroUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDA270DD256F39C3FCD18753 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Barbro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E1EA6A2221CA33A500570A30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E1EA6A2C21CA33A500570A30 /* ViewController.swift in Sources */,
+				E12C6CBC21CF9D12008C310B /* ShopHolder.swift in Sources */,
+				E12C6CCD21CFB9E3008C310B /* InsideShopViewController.swift in Sources */,
+				E12C6CC921CFB7F0008C310B /* BEMAnimationManager.m in Sources */,
+				E1EA6A6821CA520F00570A30 /* NearMeCollection.swift in Sources */,
+				E12C6CCB21CFB7F0008C310B /* BEMCheckBox.m in Sources */,
 				E1EA6A2A21CA33A500570A30 /* AppDelegate.swift in Sources */,
+				E12C6CCA21CFB7F0008C310B /* BEMPathManager.m in Sources */,
+				E12C6CD521CFF798008C310B /* TimeSlotCollection.swift in Sources */,
+				E1803F7421CA5EF100DCB46C /* TipsCollection.swift in Sources */,
+				E12C6CD321CFEED3008C310B /* DateCollection.swift in Sources */,
+				E12C6CC821CFB7F0008C310B /* BEMCheckBoxGroup.m in Sources */,
+				E12C6CD121CFE070008C310B /* ServiceTypes.swift in Sources */,
+				E1EA6A6A21CA55E400570A30 /* HomeViewController.swift in Sources */,
+				E12C6CBE21CF9D2B008C310B /* ImageService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,8 +650,10 @@
 		};
 		E1EA6A4F21CA33AF00570A30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAF36E1015D7912435E1AE38 /* Pods-Barbro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2W64VS4274;
 				INFOPLIST_FILE = Barbro/Info.plist;
@@ -441,6 +663,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaushal.Barbro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Barbro/Barbro-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,8 +672,10 @@
 		};
 		E1EA6A5021CA33AF00570A30 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C004FF8FBD7C7247CDFE305C /* Pods-Barbro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2W64VS4274;
 				INFOPLIST_FILE = Barbro/Info.plist;
@@ -459,6 +685,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaushal.Barbro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Barbro/Barbro-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -466,6 +693,7 @@
 		};
 		E1EA6A5221CA33AF00570A30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F083E744891355951E51FDE3 /* Pods-BarbroTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,6 +714,7 @@
 		};
 		E1EA6A5321CA33AF00570A30 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DD229EEF0AA553D47F9BA61 /* Pods-BarbroTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +735,7 @@
 		};
 		E1EA6A5521CA33AF00570A30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B22445C692D0E0FF469FD83C /* Pods-BarbroUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -525,6 +755,7 @@
 		};
 		E1EA6A5621CA33AF00570A30 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FCE0CF9F0C1D44942411E9B /* Pods-BarbroUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
